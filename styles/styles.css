@@ -41,7 +41,8 @@ btn-primary{
 }
 /* banner section css */
 .banner{
-    background: linear-gradient(180deg, #070211 0%, rgba(17, 2, 17, 0.) 100%), url(../resources/Banner\ Image.png);
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner.png");
     margin-top: 50px;
     height: 600px;
     width: 100%;
@@ -293,7 +294,8 @@ btn-primary{
     margin-top: 5px 0px;
     padding-bottom: 50px;
 }
-.first-section-image .second-section-image{
+.first-section-image, 
+.second-section-image{
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -309,7 +311,7 @@ btn-primary{
     border-radius: 100px;
 }
 .portfolio-img img{
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 /* newsletter css */
