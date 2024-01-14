@@ -32,6 +32,10 @@ span{
     border: none;
     transform: scale(1.2);
 }
+.portfolio-img img{
+    width: 33.33%;
+    height: 400px;
+}
 /* banner section css */
 .banner{
     background: linear-gradient(180deg, #070211 0%, rgba(17, 2, 17, 0.) 100%), url(../resources/Banner\ Image.png);
@@ -358,4 +362,45 @@ span{
     border-radius: 0px 50px 50px 0px;
 }
 
-
+/* footer section css */
+#footer-section {
+    height: 100vh;
+    background-color: #070211;
+    margin-top: 100px;
+    height: 100%; 
+}
+.footer-section-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 100px 100px 140px;
+    gap: 5px;
+}
+.footer-section-header *{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer-section-image img{
+    width: 60px;
+    height: 100%;
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 10px;
+    padding: 40px;
+}
+.footer-section-copyrights{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 120px;
+}
+.footer-section-copyrights p{
+    color: #fff;
+}
+.contact img{
+    width: 20px;
+    margin-right: 5px;
+}
