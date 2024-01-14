@@ -304,3 +304,58 @@ span{
 .portfolio-img img{
     transition: 0.6s;
 }
+
+/* newsletter css */
+#newsletter{
+    margin-top: 100px;
+}
+#newsletter .newsletter-content{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 150px;
+}
+#newsletter .newsletter-content .newsletter-image img{
+    width: 130px;
+}
+#newsletter .newsletter-content .newsletter-image h2{
+    color: #070211;
+    font-family: 'Merriweather';
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+#newsletter .newsletter-content .newsletter-image p{
+    margin-top: 10px;
+    color: #545455;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.newsletter-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.newsletter-form form *{
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+    align-items: center;
+    text-align: center;    
+}
+.newsletter-form form input{
+    width: 300px;
+    padding: 15px 30px;
+    border-radius: 50px 0px 0px 50px;
+}
+.newsletter-form form button{
+    width: 150px;
+    padding: 15px 50px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+
