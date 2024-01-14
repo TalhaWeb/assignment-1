@@ -210,3 +210,61 @@ span{
     font-weight: 300;
     margin-bottom: 10px;
 }
+
+/* holidays offer css */
+#holidays-offer{
+    margin: 100px auto;
+}
+.holidays-offer-text{
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+.holidays-offer-text h3{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    color: #070211;
+    margin-bottom: 10px;
+}
+.holidays-offer-text h1{
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.holidays-offer-text p{
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #545455;
+    text-align: center;
+}
+.main-image{
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+.red-girl{
+    width: 400px;
+}
+.discount{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+.Rectangle{
+    width: 100%;
+}
+.main-image-1{
+    position: relative;
+}
+.box{
+    position: absolute;
+    bottom: 0px;
+}
+.box img{
+    width: 80%;
+}
+
+
