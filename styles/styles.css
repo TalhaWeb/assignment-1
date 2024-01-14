@@ -286,11 +286,21 @@ span{
     margin-top: 5px 0px;
     padding-bottom: 50px;
 }
-.first-section-image-portfolio-image, .second-section-image-portfolio-image{
+.first-section-image .second-section-image{
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
 .first-section-image-portfolio-image{
     margin-bottom: 10px;
+}
+
+/* extra image hover css */
+.portfolio-img img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 100px;
+}
+.portfolio-img img{
+    transition: 0.6s;
 }
