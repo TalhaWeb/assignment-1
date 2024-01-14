@@ -58,3 +58,26 @@ span{
     font-size: 70px;
     font-weight: 900;
 }
+/* dicount section css */
+.discount-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.discount-content .discount-text *{
+    text-align: center;
+}
+.discount-content .discount-text h1{
+    color: #f00;
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.discount-content .discount-text h3{
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
