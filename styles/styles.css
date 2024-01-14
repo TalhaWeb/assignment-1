@@ -283,19 +283,18 @@ btn-primary{
     font-weight: 500;
     margin-bottom: 10px;
 }
-#portfolio-section .portfolio-text h1{
+#portfolio-section .portfolio-text h1 {
     color: #070211;
-    font-family: 'Inter';
+    font-family: Inter;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-#portfolio-section .portfolio-text p{
+#portfolio-section .portfolio-text p {
     margin-top: 5px 0px;
     padding-bottom: 50px;
 }
-.first-section-image, 
-.second-section-image{
+.first-section-image, .second-section-image{
     display: flex;
     justify-content: space-between;
     gap: 10px;
